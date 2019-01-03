@@ -16,6 +16,10 @@ public class LoginPage {
 		
 		//get title
 		System.out.println(driver.getTitle());
+		
+		//refresh Page
+		driver().navigate().refresh();
+		
 
 	}
 
