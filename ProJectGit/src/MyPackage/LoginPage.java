@@ -20,6 +20,9 @@ public class LoginPage {
 		//refresh Page
 		driver().navigate().refresh();
 		
+		//forward page
+		driver.navigate().forward();
+		
 
 	}
 
