@@ -29,7 +29,7 @@ public class LoginPage {
 		
 		driver.findElement(By.xpath("//*[@class='Name']")).clear();
 		driver.findElement(By.xpath("//*[@class='Name']")).click();
-		driver.findElement(By.xpath("//*[@class='Name']")).sendKeys("");
+		driver.findElement(By.xpath("//*[@class='Name']")).sendKeys("Ravikumar");
 		
 		//close browser
 		driver.close();
