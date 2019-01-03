@@ -27,9 +27,9 @@ public class LoginPage {
 		//writing the code
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.xpath("")).clear();
-		driver.findElement(By.xpath("")).click();
-		driver.findElement(By.xpath("")).sendKeys("");
+		driver.findElement(By.xpath("//*[@class='Name']")).clear();
+		driver.findElement(By.xpath(""//*[@class='Name']"")).click();
+		driver.findElement(By.xpath(""//*[@class='Name']"")).sendKeys("");
 		
 		//close browser
 		driver.close();
