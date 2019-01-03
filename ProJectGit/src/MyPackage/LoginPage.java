@@ -1,5 +1,6 @@
 package MyPackage;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -22,6 +23,13 @@ public class LoginPage {
 		
 		//forward page
 		driver.navigate().forward();
+		
+		//writing the code
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.xpath("")).clear();
+		driver.findElement(By.xpath("")).click();
+		driver.findElement(By.xpath("")).sendKeys("");
 		
 		//close browser
 		driver.close();
