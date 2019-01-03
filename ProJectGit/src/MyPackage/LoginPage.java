@@ -13,6 +13,9 @@ public class LoginPage {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://google.com");
+		
+		//get title
+		System.out.println(driver.getTitle());
 
 	}
 
