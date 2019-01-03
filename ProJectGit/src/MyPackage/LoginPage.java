@@ -18,12 +18,13 @@ public class LoginPage {
 		System.out.println(driver.getTitle());
 		
 		//refresh Page
-		driver().navigate().refresh();
+		driver.navigate().refresh();
 		
 		//forward page
 		driver.navigate().forward();
 		
-
+		//close browser
+		driver.close();
 	}
 
 }
